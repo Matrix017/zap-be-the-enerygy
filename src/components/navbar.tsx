@@ -30,6 +30,7 @@ function clickedHandler() {
            <Link to="/" className="focus:text-lime-400">Home</Link>
            <Link to="/flavors" className="focus:text-lime-400">Flavors</Link>
            <Link to="/reviews" className="focus:text-lime-400">Reviews</Link>
+           <Link to="/gallery" className="focus:text-lime-400">Gallery</Link>
            <Link to="/join" className="focus:text-lime-400">Join</Link>
         </div>
       )}
