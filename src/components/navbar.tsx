@@ -12,13 +12,13 @@ function clickedHandler() {
 
    return (
    <>
-     <nav className="flex  z-10  capitalize  justify-between   items-center  mx-10  p-4 backdrop-blur-lg bg-accent sticky top-0   rounded-md h-8 " >
+     <nav className="flex  z-10  capitalize  justify-between   items-center  mx-10  p-4 backdrop-blur-md    sticky top-0   rounded-md h-10 " >
     <Link to='/'  className=" transition-colors hover:text-lime-500 text-2xl  "  >zap!</Link>
      <ul className=" hidden sm:flex gap-7  "  > 
-        <li className=" transition-all hover:scale-y-95    hover:border-b-2 hover:border-b-green-500"  > <Link to='/flavors' >flavors</Link> </li>
-        <li className=" transition-all hover:scale-y-95    hover:border-b-2 hover:border-b-green-500"  > <Link to='/reviews' >reviews</Link> </li>
-        <li className=" transition-all hover:scale-y-95    hover:border-b-2 hover:border-b-green-500"  > <Link to='/gallery' >gallery</Link>  </li>
-        <li className=" transition-all hover:scale-y-95    hover:border-b-2 hover:border-b-green-500"  > <Link to='/join' >join   </Link> </li>
+        <li   > <Link to='/flavors' className=" transition-all hover:scale-y-95 hover:animate-pulse hover:text-green-600 hover:border-b-2 hover:border-b-green-500"   >flavors</Link> </li>
+        <li   > <Link to='/reviews' className=" transition-all hover:scale-y-95 hover:animate-pulse hover:text-green-600 hover:border-b-2 hover:border-b-green-500"   >reviews</Link> </li>
+        <li   > <Link to='/gallery' className=" transition-all hover:scale-y-95 hover:animate-pulse hover:text-green-600 hover:border-b-2 hover:border-b-green-500"  >gallery</Link>  </li>
+        <li   > <Link to='/join' className=" transition-all hover:scale-y-95    hover:animate-pulse hover:text-green-600 hover:border-b-2 hover:border-b-green-500"    >join   </Link> </li>
      </ul>
      <button id="menu" type="button" onClick={clickedHandler}   className="cursor-pointer   hover:scale-110 p-[1em] rounded-md  sm:invisible "><svg xmlns="http://www.w3.org/2000/svg"
                     width="30" height="30" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">

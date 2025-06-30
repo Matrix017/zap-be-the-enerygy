@@ -31,12 +31,12 @@ export default function Home() {
     <main className="bg-black text-white min-h-screen font-sans">
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center h-screen text-center px-4">
-        <h1 className="text-6xl md:text-7xl font-bold text-lime-400">ZAP!</h1>
+        <h1 className="text-6xl md:text-7xl font-bold text-lime-400    ">ZAP!</h1>
         <p className="text-xl md:text-2xl mt-4 text-gray-300">Shock your system ⚡ Stay wired.</p>
         <img
           src={zapCan}
           alt="ZAP Can"
-          className="my-8 w-48 rounded-md animate-bounce"
+          className="my-8 w-48 rounded-md animate-pulse hover:scale-105 transition-transform duration-300"
         />
         <button className="bg-lime-400 text-black px-6 py-3 rounded-full text-lg hover:bg-lime-300 transition">
           Try Now
